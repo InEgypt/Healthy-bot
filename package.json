@@ -1,0 +1,33 @@
+{
+  "name": "healthy-bot",
+  "version": "1.0.0",
+  "description": "بوت تلجرام غذائي للحصول على معلومات التغذية والسعرات الحرارية",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "jest --passWithNoTests"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "nutrition",
+    "health",
+    "diet",
+    "calories",
+    "arabic"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "node-telegram-bot-api": "^0.64.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
